@@ -1,0 +1,81 @@
+@use "../abstract/mixins";
+
+.card {
+  display         : flex;
+  flex-direction  : row;
+  justify-content : center;
+  align-items     : center;
+  
+  &__content {
+	display        : flex;
+	flex-direction : column;
+	gap            : var(--spacing-400);
+	padding        : var(--spacing-400);
+	}
+  
+  &__header {
+	display        : flex;
+	flex-direction : column;
+	gap            : var(--spacing-300);
+	}
+  
+  &__category {
+	span {
+	  color          : var(--color-grey);
+	  @include mixins.montserrat-font(500);
+	  font-size      : var(--font-12);
+	  line-height    : var(--line-height-120);
+	  letter-spacing : var(--letter-spacing-5);
+	  text-transform : uppercase;
+	  }
+	}
+  
+  &__image {
+	
+	width    : 100%;
+	height   : 456px;
+	overflow : hidden;
+	
+	img {
+	  max-width                 : 100%;
+	  width                     : 300px;
+	  height                    : 100%;
+	  object-fit                : fill;
+	  display                   : block;
+	  vertical-align            : middle;
+	  border-bottom-left-radius : var(--default-border-radius);
+	  border-top-left-radius    : var(--default-border-radius);
+	  }
+	}
+  
+  &__price {
+	display         : flex;
+	flex-direction  : row;
+	justify-content : flex-start;
+	align-items     : center;
+	width           : 100%;
+	}
+  
+  &__sale_price {
+	font-size     : var(--font-32);
+	color         : var(--color-green-500);
+	display       : block;
+	margin-bottom : 0;
+	}
+  
+  &__msrp_price {
+	margin-left    : var(--spacing-200);
+	font-size      : var(--font-13);
+	color          : var(--color-grey);
+	@include mixins.montserrat-font(500);
+	line-height    : var(--line-height-120);
+	vertical-align : middle;
+	display        : block;
+	}
+  
+  &__btn {
+	img {
+	  margin-right : var(--spacing-100);
+	  }
+	}
+  }

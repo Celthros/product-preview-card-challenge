@@ -1,0 +1,39 @@
+$media-mobile          : 23.438em; //375px
+$media-desktop         : 90em; //1440px
+$media-w-600           : 37.5em; // 600px
+//Colors
+//Primary
+$color-green-500       : hsl(158, 36%, 37%);
+$color-green-700       : hsl(158, 42%, 18%);
+//Neutral
+
+$color-black           : hsl(212, 21%, 14%);
+$color-grey            : hsl(228, 12%, 48%);
+$color-cream           : hsl(30, 38%, 92%);
+$color-white           : hsl(0, 0%, 100%);
+
+//Typography
+$line-height-100       : 1; //100%
+$line-height-110       : 1.1; //110%
+$line-height-120       : 1.2; //120%
+$line-height-160       : 1.6; //160%
+
+$letter-spacing-0      : 0px;
+$letter-spacing-5      : 5px;
+
+//Body Copy
+$default-font          : 1rem; //16px
+$font-12               : 0.75rem; //12px
+$font-13               : 0.813rem; //13px
+$font-14               : 0.875rem; //14px
+$font-32               : 2rem; //32px
+
+//spacing
+$spacing-100           : 0.5rem; //8px
+$spacing-200           : 1rem; //16px
+$spacing-300           : 1.5rem; // 24px
+$spacing-400           : 2rem; //32px
+$spacing-500           : 2.5rem; //40px
+
+//border radius
+$default-border-radius : 0.5rem; // 8px

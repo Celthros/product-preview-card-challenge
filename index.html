@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- displays site properly based on user's device -->
-
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="style.min.css"></noscript>
 	<title>Frontend Mentor | Product preview card component</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
 	<section class="card">
 		<div class="card__image">
 			<figure>
-				<img src="images/image-product-desktop.jpg" alt="Product preview card component">
+				<img src="images/image-product-desktop.jpg" width="300" height="456" alt="Product preview card component">
 			</figure>
 		</div>
 		<div class="card__content">
@@ -32,12 +34,10 @@
 				</div>
 			</header>
 			<div class="card__price">
-				<p>
 					<span class="card__sale_price">$149.99</span><span class="card__msrp_price"><s>$169.99</s></span>
-				</p>
 			</div>
 
-			<button type="button" class="card__btn" onclick="this.preventDefault();"><img src="images/icon-cart.svg" alt="card-item">Add to Cart</button>
+			<button type="button" class="card__btn" onclick="event.preventDefault();"><img src="images/icon-cart.svg" alt="card-item">Add to Cart</button>
 		</div>
 	</section>
 </main>
