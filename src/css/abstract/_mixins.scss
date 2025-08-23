@@ -1,0 +1,16 @@
+@mixin montserrat-font($weight: 400, $font-style: normal) {
+  font-family         : "Montserrat", sans-serif;
+  font-optical-sizing : auto;
+  font-weight         : $weight;
+  font-style          : $font-style;
+  }
+
+
+@mixin fraunces-font($weight: 400, $font-style: normal) {
+  font-family             : "Fraunces", serif;
+  font-optical-sizing     : auto;
+  font-weight             : $weight;
+  font-style              : $font-style;
+  font-variation-settings : "SOFT" 0,
+  "WONK" 0;
+  }
