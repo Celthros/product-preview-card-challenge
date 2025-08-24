@@ -4,6 +4,9 @@
 :root {
   --media-mobile          : #{var.$media-mobile};
   --media-desktop         : #{var.$media-desktop};
+  --media-w-300           : #{var.$media-w-300};
+  --media-w-350           : #{var.$media-w-350};
+  --media-w-576           : #{var.$media-w-576};
   --media-w-600           : #{var.$media-w-600};
   --color-green-500       : #{var.$color-green-500};
   --color-green-700       : #{var.$color-green-700};
