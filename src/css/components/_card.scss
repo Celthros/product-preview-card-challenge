@@ -58,6 +58,7 @@
 	  border-top-left-radius  : var(--default-border-radius);
 	  
 	  @media (min-width : #{var.$media-w-576}) {
+		border-top-right-radius : 0;
 		border-bottom-left-radius : var(--default-border-radius);
 		border-top-left-radius    : var(--default-border-radius);
 		}
