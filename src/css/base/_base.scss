@@ -48,7 +48,7 @@ h1 {
 
 h1, h2, h3, h4, h5, h6, .card__sale_price {
   color              : var(--color-black);
-  margin-block-start : 0em;
+  margin-block-start : 0;
   margin-block-end   : .5rem;
   @include mixins.fraunces-font(700);
   line-height        : var(--line-height-100);
