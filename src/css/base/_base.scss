@@ -1,5 +1,5 @@
-@use "../abstract/variables" as var;
-@use "../abstract/mixins";
+@use '../abstract/variables' as var;
+@use '../abstract/mixins';
 
 html {
   box-sizing : border-box;
@@ -19,13 +19,13 @@ body {
   flex-direction   : column;
   justify-content  : center;
   align-items      : center;
-  height           : 100vh;
+  min-height       : 100vh;
   color            : var(--color-grey);
   margin           : var(--spacing-200) auto;
   
   @media (min-width : #{var.$media-w-576}) {
-	height : 100vh;
-	margin : 0 auto;
+	min-height : 100vh;
+	margin     : 0 auto;
 	}
   }
 
