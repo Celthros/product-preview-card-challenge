@@ -1,5 +1,5 @@
-@use "variables" as var;
-@use "mixins";
+@use 'variables' as var;
+@use 'mixins';
 
 :root {
   --media-mobile          : #{var.$media-mobile};
@@ -31,4 +31,5 @@
   --spacing-400           : #{var.$spacing-400};
   --spacing-500           : #{var.$spacing-500};
   --default-border-radius : #{var.$default-border-radius};
+  --main-box-shadow       : 20px 30px 50px -47px rgba(72, 85, 106, 0.24);
   }
